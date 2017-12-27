@@ -1,21 +1,22 @@
 import { Injectable } from '@angular/core';
 
-import {HttpClient, HttpHeaders} from "@angular/common/http";
+import { Headers, Http } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 
-import { User } from './user'
+import { User } from './user';
 
 @Injectable()
 export class UserService {
 
-  private userUrl = '/rest/user/hello?name=Innova';
+  private userUrl = '/rest/user/hello?name=1';
 
-  constructor(private http: HttpClient){}
-  
-  getHelloMsg(): Promise<User> {
+    constructor(private http: Http) { }
+
+    // Get all Users
+    getHelloMsg(): Promise<User[]> {
     return this.http.get(this.userUrl)
       .toPromise()
-      .then(response => response as User)
+      .then(response => response.json() as User[])
       .catch(this.handleError);
   }
 
