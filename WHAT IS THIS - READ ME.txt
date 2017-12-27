@@ -1,0 +1,1 @@
+This is foreign Angular Service example. Pure version. Not edited by me, but installed
