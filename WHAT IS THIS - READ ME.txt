@@ -1,3 +1,5 @@
-This is foreign Angular Service example. Pure version. Not edited by me, but installed
+This is intermediate version of Angular Servlet inegrated in Spring Boot. Just a Angular Version. Before editing, PLEASE DELETE "dist" FOLDER and run:
 
-Source Link to Download (Git) - https://github.com/innova-engineers/spring-tutorial
+ng build --env=prod
+
+
