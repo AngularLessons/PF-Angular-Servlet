@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/angular4-with-spring.iml" filepath="$PROJECT_DIR$/.idea/angular4-with-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PF-angular-INTEGRATED.iml" filepath="$PROJECT_DIR$/PF-angular-INTEGRATED.iml" />
     </modules>
   </component>
 </project>

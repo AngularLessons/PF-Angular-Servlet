@@ -9,6 +9,10 @@ import { User } from './user';
 export class UserService {
 
   private userUrl = '/rest/user/hello?name=1';
+    //private userUrl = '//localhost:8081/rest/user/hello?name=1';
+    //private userUrl = '//192.168.1.34:8080/spa48/rest/user/hello?name=1';
+
+
 
     constructor(private http: Http) { }
 
