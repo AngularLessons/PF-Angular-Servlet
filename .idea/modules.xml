@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PF-angular-INTEGRATED.iml" filepath="$PROJECT_DIR$/PF-angular-INTEGRATED.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-web-pf2.iml" filepath="$PROJECT_DIR$/spring-boot-starter-web-pf2.iml" />
     </modules>
   </component>
 </project>

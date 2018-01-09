@@ -1,5 +1,8 @@
-This is intermediate version of Angular Servlet inegrated in Spring Boot. Just a Angular Version. Before editing, PLEASE DELETE "dist" FOLDER and run:
+This is integration of Angular Servlet in simple Spring Boot. But without MAVEN ADOPTATION
 
-ng build --env=prod
+Run after open in IDEA:
+
+Build: mvn clean install
+Run: mvn spring-boot:run
 
 
